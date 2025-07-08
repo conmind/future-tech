@@ -1,0 +1,25 @@
+.soc1als__list {
+  display: flex;
+  column-gap: 1.25rem;
+}
+@media (width <= 90.06125rem) {
+  .soc1als__list {
+    column-gap: 0.875rem;
+  }
+}
+.soc1als__item {
+  display: flex;
+}
+.soc1als__link {
+  --size: 1.5rem;
+  width: var(--size);
+  height: var(--size);
+  color: var(--color-light);
+}
+@media (width <= 90.06125rem) {
+  .soc1als__link {
+    --size: 1.25rem;
+  }
+}
+
+/*# sourceMappingURL=soc1als.css.map */
