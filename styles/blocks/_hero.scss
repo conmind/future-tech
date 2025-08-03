@@ -64,7 +64,7 @@
 
         @include tablet {
             &::before {
-                width: var(100vw);
+                width: 100vw;
                 right: calc(var(--container-padding-x) * -1);
             }
         }
