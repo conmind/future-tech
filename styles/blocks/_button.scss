@@ -3,6 +3,7 @@
 .button {
     display: inline-flex;
     justify-content: center;
+    min-width: rem(137);
     padding: rem(18) rem(24);
     font-size: rem(18);
     color: var(--color-gray-60);
