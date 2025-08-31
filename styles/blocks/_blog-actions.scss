@@ -4,10 +4,10 @@
     &__list {
         display: flex;
         column-gap: rem(10);
-    }
 
-    @include laptop {
-        column-gap: rem(8);
+        @include laptop {
+            column-gap: rem(8);
+        }
     }
 
     &__button {
@@ -31,7 +31,7 @@
         &.is-active {
             svg * {
                 fill: var(--color-red);
-                stroke: none;
+                stroke: var(--color-red);
             }
         }
     }

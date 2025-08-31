@@ -86,10 +86,10 @@
         }
 
         @include tablet {
-            width: var(--100vw);
+            width: 100vw;
             margin-left: calc(var(--container-padding-x) * -1);
             padding: rem(100) rem(40) rem(40);
-            background-image: url(/images/resources-preview/bg_tablet.png);
+            background-image: url('/images/resources-preview/bg_tablet.png');
             background-size: contain;
         }
     }

@@ -63,7 +63,7 @@
         padding-right: 0;
 
         @include tablet {
-            padding: rem(30) rem(16);
+            padding: rem(30) 0;
         }
     }
 
